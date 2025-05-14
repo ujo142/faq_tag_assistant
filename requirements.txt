@@ -1,0 +1,13 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+google-cloud-vision
+faiss-cpu
+sentence-transformers
+google-cloud-storage
+google-cloud-aiplatform
+google-genai
+streamlit-option-menu
+google-generativeai
+
