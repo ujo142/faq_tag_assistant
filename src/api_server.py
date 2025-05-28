@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile, File
-from vision import analyze_image_with_vision  
+from src.vision import analyze_image_with_vision  
 from google.cloud import storage
 import faiss
 import pickle
@@ -8,9 +8,9 @@ from pydantic import BaseModel
 import traceback
 from fastapi import Form
 import json
-from llm_vertex import generate_vertex_response
-from rag_faq_engine import search_similar_questions
-from rag_faq_engine import download_faq_index
+from src.llm_vertex import generate_vertex_response
+from src.rag_faq_engine import search_similar_questions
+from src.rag_faq_engine import download_faq_index
 
 
 class FAQQuery(BaseModel):

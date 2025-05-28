@@ -11,3 +11,4 @@ google-genai
 streamlit-option-menu
 google-generativeai
 google
+dotenv
